@@ -1,4 +1,5 @@
 import { headerElement, navElement, mainElement} from './page-load';
+import './style.css';
 
 const content = document.querySelector("#content");
 
