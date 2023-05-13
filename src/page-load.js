@@ -1,4 +1,4 @@
-// import homeImg from '/home.jpeg'
+import homeImg from './home.jpeg'
 
 const headerElement = () => {
     const header = document.createElement('header');
@@ -27,8 +27,12 @@ const mainElement = () => {
 
     const para = document.createElement('p');
     para.textContent = 'We serve very good pizza';
+
+    const img = new Image();
+    img.src = homeImg
     
     main.appendChild(para);
+    main.appendChild(img);
 
     return main;
 }
