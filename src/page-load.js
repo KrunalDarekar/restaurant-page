@@ -3,7 +3,7 @@ import homeImg from './home.jpeg'
 const headerElement = () => {
     const header = document.createElement('header');
     header.classList.add('header');
-    header.textContent = "kay's pizzeria";
+    header.textContent = "Kay's pizzeria";
 
     return header;
 }
