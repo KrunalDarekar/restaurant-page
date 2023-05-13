@@ -3,6 +3,12 @@
     margin: 0;
 }
 
+body {
+    background-image: url('./backg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 #content {
     background-color: antiquewhite;
 }
