@@ -12,11 +12,21 @@ const navElement = () => {
     const nav = document.createElement('div');
     nav.classList.add('nav');
     
-    const home = document.createElement('p');
+    const home = document.createElement('button');
     home.classList.add('home');
     home.textContent = 'home';
 
+    const menu = document.createElement('button');
+    home.classList.add('menu');
+    menu.textContent = 'menu';
+
+    const contact = document.createElement('button');
+    home.classList.add('contact');
+    contact.textContent = 'contact';
+
     nav.appendChild(home);
+    nav.appendChild(menu);
+    nav.appendChild(contact);
 
     return nav;
 }

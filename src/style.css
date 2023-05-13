@@ -16,8 +16,16 @@ header {
     background-color: rgba(0, 0, 0, 0.8);
     text-align: center;
     color: white;
-    font-size: 1.8rem;
     padding: 1rem 0;
+}
+
+.nav > button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    margin: 0 1.5rem;
+    font-size: 1.4rem;
+    margin-bottom: .5rem;
 }
 
 .main {
@@ -32,7 +40,7 @@ header {
 .main > p{
     margin-bottom: 1rem;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .main > img {
