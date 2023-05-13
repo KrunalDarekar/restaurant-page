@@ -3,7 +3,7 @@ import homeImg from './home.jpeg'
 const headerElement = () => {
     const header = document.createElement('header');
     header.classList.add('header');
-    header.textContent = 'Very Good Pizzeria';
+    header.textContent = "kay's pizzeria";
 
     return header;
 }
@@ -14,15 +14,15 @@ const navElement = () => {
     
     const home = document.createElement('button');
     home.classList.add('home');
-    home.textContent = 'home';
+    home.textContent = 'Home';
 
     const menu = document.createElement('button');
     home.classList.add('menu');
-    menu.textContent = 'menu';
+    menu.textContent = 'Menu';
 
     const contact = document.createElement('button');
     home.classList.add('contact');
-    contact.textContent = 'contact';
+    contact.textContent = 'Contact';
 
     nav.appendChild(home);
     nav.appendChild(menu);
@@ -36,7 +36,7 @@ const mainElement = () => {
     main.classList.add('main');
 
     const para = document.createElement('p');
-    para.textContent = 'We serve very good pizza';
+    para.textContent = 'We serve the best pizza around you';
 
     const img = new Image();
     img.src = homeImg
