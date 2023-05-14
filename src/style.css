@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Tangerine';
+    src: url('./Tangerine-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -8,7 +15,9 @@ header {
     background-color: rgba(0, 0, 0, 0.8);
     text-align: center;
     color: yellow;
-    font-size: 4rem;
+    font-family: 'Tangerine', sans-serif;
+    font-weight: 900;
+    font-size: 6rem;
     padding: 2rem 0;
 }
 
@@ -25,7 +34,17 @@ header {
     border: none;
     margin: 0 1.5rem;
     font-size: 1.4rem;
-    margin-bottom: .5rem;
+    padding-bottom: .3rem;
+    transition: transform 0.3s;
+}
+
+.nav > button:hover {
+    transform: translateY(-15%);
+    cursor: pointer;
+}
+
+.nav > .active {
+    border-bottom: 1px solid white;
 }
 
 .main {

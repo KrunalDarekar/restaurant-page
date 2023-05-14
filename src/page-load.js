@@ -30,6 +30,7 @@ const navElement = () => {
     
     const home = document.createElement('button');
     home.classList.add('home');
+    home.classList.add('active');
     home.textContent = 'Home';
 
     const menu = document.createElement('button');
