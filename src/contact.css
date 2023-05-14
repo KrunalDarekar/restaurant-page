@@ -1,0 +1,11 @@
+.contact-component {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-component > div{
+    margin-bottom: 1rem;
+    color: white;
+    font-size: 1.2rem;
+    text-align: left;
+}
