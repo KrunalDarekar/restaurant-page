@@ -1,0 +1,71 @@
+.element1 > .img {
+    background-image: url('./margherita.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.element2 > .img {
+    background-image: url('./corn.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.element3 > .img {
+    background-image: url('./farmhouse.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.element4 > .img {
+    background-image: url('./peppyPaneer.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.element5 > .img {
+    background-image: url('./bbqChicken.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.element6 > .img {
+    background-image: url('./chickenSausage.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.menu-component {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+    margin: 1rem;
+}
+
+.menu-component > div {
+    position: relative;
+    height: 200px;
+    width: 400px;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-component > div > .img{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 85%;
+}
+
+.menu-component > div > div:nth-child(2){
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 15%;
+    color: white;
+    text-align: center;
+}
+
+
