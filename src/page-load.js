@@ -1,4 +1,4 @@
-import homeImg from './home.jpeg'
+import homeImg from './home.jpeg';
 
 const headerElement = () => {
     const header = document.createElement('header');
