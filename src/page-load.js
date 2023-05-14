@@ -8,29 +8,6 @@ const headerElement = () => {
     return header;
 }
 
-const navElement = () => {
-    const nav = document.createElement('div');
-    nav.classList.add('nav');
-    
-    const home = document.createElement('button');
-    home.classList.add('home');
-    home.textContent = 'Home';
-
-    const menu = document.createElement('button');
-    home.classList.add('menu');
-    menu.textContent = 'Menu';
-
-    const contact = document.createElement('button');
-    home.classList.add('contact');
-    contact.textContent = 'Contact';
-
-    nav.appendChild(home);
-    nav.appendChild(menu);
-    nav.appendChild(contact);
-
-    return nav;
-}
-
 const mainElement = () => {
     const main = document.createElement('div');
     main.classList.add('main');
@@ -45,6 +22,29 @@ const mainElement = () => {
     main.appendChild(img);
 
     return main;
+}
+
+const navElement = () => {
+    const nav = document.createElement('div');
+    nav.classList.add('nav');
+    
+    const home = document.createElement('button');
+    home.classList.add('home');
+    home.textContent = 'Home';
+
+    const menu = document.createElement('button');
+    menu.classList.add('menu');
+    menu.textContent = 'Menu';
+
+    const contact = document.createElement('button');
+    contact.classList.add('contact');
+    contact.textContent = 'Contact';
+
+    nav.appendChild(home);
+    nav.appendChild(menu);
+    nav.appendChild(contact);
+
+    return nav;
 }
 
 export {
